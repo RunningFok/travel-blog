@@ -13,7 +13,7 @@ type PostProps = {
 const TopPostCard = ({
   className,
   title,
-  image,
+  image,  
   snippet,
   linkAddress,
 }: PostProps) => {
@@ -63,7 +63,7 @@ const SidePostCard = ({ className, title, image, linkAddress }: PostProps) => {
         <div className="justify-between flex content-start relative w-40 h-40">
           <Image
             alt=""
-            src={`/../public/${image}`}
+            src={`.next/static/media/${image}`}
             width={150}
             height={150}
             sizes="(max-width: 480px) 100vw,
@@ -94,7 +94,7 @@ export default function TopLocations() {
         <TopPostCard
           className="col-span-3 row-span-3"
           title="The 8 best things to do in Cheung Chau"
-          image="assets/TopPost.jpeg"
+          image=".next/static/media/TopPost.jpeg"
           snippet="We are absolutely in love with this island. For its narrow streets and colorful houses, breathtaking views, its galleries full of ancient and contemporary art,..."
           linkAddress="/topLocations"
         />
@@ -102,19 +102,19 @@ export default function TopLocations() {
           <SidePostCard
             className="col-span-2 row-span-1"
             title="The 5 best hotels in Cheung Chau"
-            image="assets/cchotel.jpg"
+            image=".next/static/media/cchotel.jpg"
             linkAddress="/topHotels"
           />
           <SidePostCard
             className="col-span-2 row-span-1"
             title="The top 8 attractions in Cheung Chau"
-            image="assets/bestThings.jpg"
+            image=".next/static/media/bestThings.jpg"
             linkAddress="/topLocations"
           />
           <SidePostCard
             className="col-span-2 row-span-1"
             title="The 5 best foodie spots in Cheung Chau"
-            image="assets/buns.jpeg"
+            image=".next/static/media/buns.jpeg"
             linkAddress="/topRestaurants"
           />
         </div>

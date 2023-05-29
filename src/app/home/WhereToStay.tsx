@@ -15,7 +15,7 @@ export default function WhereToStay() {
       <div className="sm:mx-0 lg:mx-96 md:mx-32 relative py-5 inline-block flex-col ">
         <Link href={"/topHotels"} className="hover:opacity-70">
           <Image
-            src={"/../public/assets/cchotel2.jpg"}
+            src={".next/static/media/cchotel2.jpg"}
             alt={""}
             width={600}
             height={600}
