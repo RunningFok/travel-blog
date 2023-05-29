@@ -22,7 +22,7 @@ export function Post({ className, title, image, snippet }: PostProps) {
         <Image
           width={400}
           height={400}
-          src={`.next/static/media/${image}`}
+          src={`/static/images/${image}`}
           alt=""
           className="max-h-56"
         />
@@ -52,7 +52,7 @@ export function SmallPost({ className, title, image, snippet }: PostProps) {
         </div>
       </div>
       <div className="sm:block hidden mx-5 my-5">
-        <Image width={300} height={300} src={`.next/static/media/${image}`} alt="" />
+        <Image width={300} height={300} src={`public/static/images/${image}`} alt="" />
       </div>
     </div>
   );
@@ -73,7 +73,7 @@ export function Top10Post({
     <div className="lg:ml-80 ml-5 pb-16 flex flex-col relative">
       <div className="flex my-5">
         <Link href={`/locations/${id}`}>
-          <Image width={600} height={600} src={`.next/static/media/${image}`} alt="" />
+          <Image width={600} height={600} src={`public/static/images/${image}`} alt="" />
         </Link>
       </div>
       <div className="font-bold text-lg md:text-3xl lg:text-3xl text-wh-900  hover:underline hover:decoration-4 hover:decoration-teal-400 ">
