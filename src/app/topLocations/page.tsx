@@ -9,7 +9,7 @@ export default function TopLocations() {
         <Image
           width={700}
           height={700}
-          src={"/public/static/images/bestThings.jpg"}
+          src={"/static/images/bestThings.jpg"}
           alt={""}
         />
         <div className="flex  mt-5 font-extrabold font-sans text-xl md:text-3xl lg:text-3xl text-wh-900 ">
@@ -82,7 +82,7 @@ export default function TopLocations() {
       <Top10Post
         title="1. Catch a ferry or two in the famous pier"
         whatIs="This is the main entrance to the island and where most visitors arrive by ferry. It's a great spot for people-watching, and you can catch a glimpse of fishermen unloading their daily catch."
-        image={"/public/static/images/cc1.jpg"}
+        image={"cc1.jpg"}
         categoryTag="Attractions"
         locationTag="West"
         id="clht87lum0000ulb4wlqnrf76"
@@ -90,7 +90,7 @@ export default function TopLocations() {
       <Top10Post
         title="2. Take in the views from the Tung Wan Beach"
         whatIs="A popular sandy beach on the island where visitors can swim, sunbathe, and enjoy water sports activities. There are also plenty of seafood restaurants and cafes nearby."
-        image={"/public/static/images/cc2.jpg"}
+        image={"cc2.jpg"}
         categoryTag="Attractions"
         locationTag="North"
         id="clht87m6t0002ulb4rpi9o5vt"
@@ -98,7 +98,7 @@ export default function TopLocations() {
       <Top10Post
         title="3. Drink, eat and people watch at  Pak Tai Temple"
         whatIs=" A historic temple dedicated to the Taoist God of the Sea, Pak Tai. The temple houses several beautiful statues and traditional Chinese architecture."
-        image={"/public/static/images/cc3.jpeg"}
+        image={"cc3.jpeg"}
         categoryTag="Temple"
         locationTag="North"
         id="clht87mcn0004ulb43jzhiwml"
@@ -106,7 +106,7 @@ export default function TopLocations() {
       <Top10Post
         title="4. Find that legednary treasure at Cheung Po Tsai Cave"
         whatIs="The historic site where infamous pirate of the century Cheung Po Tsai hid his booty. "
-        image={"/public/static/images/cc4.jpg"}
+        image={"cc4.jpg"}
         categoryTag="Historical"
         locationTag="South"
         id="clht87mid0006ulb4l89c1h85"
@@ -114,7 +114,7 @@ export default function TopLocations() {
       <Top10Post
         title="5. Discover exciting natural minerals at Reclining Rock "
         whatIs="A unique rock formation that looks like a reclining body. It's a popular spot for taking photos and just hanging out."
-        image={"/public/static/images/cc5.jpeg"}
+        image={"cc5.jpeg"}
         categoryTag="Scenic"
         locationTag="South"
         id="clht87mo30008ulb4mwt1cv4b"
@@ -122,7 +122,7 @@ export default function TopLocations() {
       <Top10Post
         title="6. Reimagine life as a surfer at Kwun Yam Beach"
         whatIs=" Another beautiful beach in Cheung Chau, with crystal clear water and stunning views of the surrounding hills."
-        image={"/public/static/images/cc6.jpg"}
+        image={"cc6.jpg"}
         categoryTag="Scenic"
         locationTag="East"
         id="clht87mu0000aulb46xagsfak"
@@ -130,7 +130,7 @@ export default function TopLocations() {
       <Top10Post
         title="7. Get lost in  Mini Great Wall "
         whatIs="Chocolataria Equador is a brand, 100% Portuguese, made of handmade chocolate. In Invicta there are stores in Rua Sá da Bandeira, Rua das Flores and Rua Sousa Viterbo."
-        image={"/public/static/images/cc8.jpg"}
+        image={"cc8.jpg"}
         categoryTag="Hiking"
         locationTag="Scenic"
         id="clht87n5o000eulb4tj4wbpaw"
@@ -138,7 +138,7 @@ export default function TopLocations() {
       <Top10Post
         title="8. Stroll around Tung Wan Tsai"
         whatIs="A small island located off Cheung Chau Island. Visitors can take a short boat ride to explore its gorgeous beaches and crystal-clear waters."
-        image={"/public/static/images/cc10.jpg"}
+        image={"cc10.jpg"}
         categoryTag="Scenic"
         locationTag="North"
         id="clht87nht000iulb423iyqci2"

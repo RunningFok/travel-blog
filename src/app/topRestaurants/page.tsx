@@ -9,7 +9,7 @@ export default function TopRestaurants() {
         <Image
           width={700}
           height={700}
-          src={"/public/static/images/buns.jpeg"}
+          src={"/static/images/buns.jpeg"}
           alt={""}
         />
         <div className="flex  mt-5 font-extrabold font-sans text-xl md:text-3xl lg:text-3xl text-wh-900 ">
@@ -78,41 +78,41 @@ export default function TopRestaurants() {
       <Top10Post
         title="1. Kanna Kitchen"
         whatIs="Kanna Kitchen is a family-owned Japanese home food restaurant that serves authentic and delicious Japanese cuisine. With generations of family recipes passed down."
-        image={"/public/static/images/restaurant1.jpg"}
-        categoryTag="Attractions"
+        image={"restaurant1.jpg"}
+        categoryTag="Restaurant"
         locationTag="West"
         id="cli0k4wze0000ulb4x78lkeu1"
       />
       <Top10Post
         title="2. Sidan"
         whatIs="Sidan is a charming Italian restaurant located in the heart of Cheung Chau island. It offers a cozy and inviting ambiance that is perfect for intimate gatherings or family dinners."
-        image={"/public/static/images/restaurant2.jpg"}
-        categoryTag="Attractions"
+        image={"restaurant2.jpg"}
+        categoryTag="Restaurant"
         locationTag="North"
         id="cli0k6rra0002ulb4rlqt9cvy"
       />
       <Top10Post
         title="3. Islander Cheung Chau"
         whatIs="Islander Cheung Chau is a beer shop located in the picturesque island of Cheung Chau in Hong Kong."
-        image={"/public/static/images/restaurant3.jpg"}
-        categoryTag="Temple"
-        locationTag="North"
+        image={"restaurant3.jpg"}
+        categoryTag="Beer Shop"
+        locationTag="East"
         id="cli0k8aom0004ulb4wvjsecq9"
       />
       <Top10Post
         title="4. Ling Heung"
         whatIs="Ling Heung is a cozy and inviting restaurant nestled in the heart of Cheung Chau, known for its delicious authentic Cantonese cuisine."
-        image={"/public/static/images/restaurant4.jpg"}
-        categoryTag="Historical"
+        image={"restaurant4.jpg"}
+        categoryTag="Restaurant"
         locationTag="South"
         id="cli0kcqbf0006ulb4s3dvx37c"
       />
       <Top10Post
         title="5. Hometown Teahouse "
         whatIs="Hometown Teahouse is a charming little bakery located in the heart of Cheung Chau that specializes in crafting delicious and authentic red bean pastries. "
-        image={"/public/static/images/restaurant5.jpg"}
-        categoryTag="Scenic"
-        locationTag="South"
+        image={"restaurant5.jpg"}
+        categoryTag="Restaurant"
+        locationTag="East"
         id="cli0ketfw0008ulb4k22saj5w"
       />
     </main>

@@ -5,7 +5,7 @@ import Image from "next/image";
 type PostProps = {
   className?: string;
   title: string;
-  image: string;
+  image?: string;
   snippet?: string;
   linkAddress: string;
 };
@@ -13,7 +13,6 @@ type PostProps = {
 const TopPostCard = ({
   className,
   title,
-  image,  
   snippet,
   linkAddress,
 }: PostProps) => {
@@ -27,7 +26,7 @@ const TopPostCard = ({
           width={600}
           height={600}
           alt=""
-          src={`/public/static/images/${image}`}
+          src={"/static/images/TopPost.jpeg"}
           sizes="(max-width: 480px) 100vw,
                 (max-width: 768px) 75vw,
                 (max-width: 1060px) 50vw,
@@ -63,7 +62,7 @@ const SidePostCard = ({ className, title, image, linkAddress }: PostProps) => {
         <div className="justify-between flex content-start relative w-40 h-40">
           <Image
             alt=""
-            src={`/public/static/images/${image}`}
+            src={`/static/images/${image}`}
             width={150}
             height={150}
             sizes="(max-width: 480px) 100vw,
@@ -94,7 +93,6 @@ export default function TopLocations() {
         <TopPostCard
           className="col-span-3 row-span-3"
           title="The 8 best things to do in Cheung Chau"
-          image="/public/static/images/TopPost.jpeg"
           snippet="We are absolutely in love with this island. For its narrow streets and colorful houses, breathtaking views, its galleries full of ancient and contemporary art,..."
           linkAddress="/topLocations"
         />
@@ -102,19 +100,19 @@ export default function TopLocations() {
           <SidePostCard
             className="col-span-2 row-span-1"
             title="The 5 best hotels in Cheung Chau"
-            image="/public/static/images/cchotel.jpg"
+            image="cchotel.jpg"
             linkAddress="/topHotels"
           />
           <SidePostCard
             className="col-span-2 row-span-1"
             title="The top 8 attractions in Cheung Chau"
-            image="/public/static/images/bestThings.jpg"
+            image="bestThings.jpg"
             linkAddress="/topLocations"
           />
           <SidePostCard
             className="col-span-2 row-span-1"
             title="The 5 best foodie spots in Cheung Chau"
-            image="/public/static/images/buns.jpeg"
+            image="buns.jpeg"
             linkAddress="/topRestaurants"
           />
         </div>
