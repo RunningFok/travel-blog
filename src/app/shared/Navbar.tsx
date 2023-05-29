@@ -43,7 +43,7 @@ export default function Navbar(props: Props) {
             </a>
           </div>
         </div>
-        <div className="sm:pr-28 ml-20 flex justify-between items-center gap-10">
+        <div className=" pl-0  flex justify-between items-center gap-10">
           <Link
             href={"#top"}
             className=" text-6xl text-teal-200 font-serif font-thin"

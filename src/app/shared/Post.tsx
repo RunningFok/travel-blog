@@ -30,7 +30,7 @@ export function Post({ className, title, image, snippet }: PostProps) {
       <div className="mx-5 mr-24 font-bold sm:text-lg md:text-xl lg:text-xl text-wh-900 hover:underline hover:decoration-4 hover:decoration-teal-400 ">
         {title}
       </div>
-      <div className="mx-5 mr-28 flex py-1 text-sm text-wh-900">{snippet}</div>
+      <div className="mx-5 mr-20 flex py-1 text-sm text-wh-900">{snippet}</div>
       <div className="mx-5 my-3 mr-28">
         <button className="bg-teal-200 border-2 text-sm border-gray-800 text-wh-900 font-bold w-32 h-10 hover:bg-amber-200">
           Buy tickets
@@ -44,10 +44,10 @@ export function SmallPost({ className, title, image, snippet }: PostProps) {
   return (
     <div className="lg:mx-96 ml-11 flex sm:flex-col md:flex-row lg:flex-row py-5">
       <div className="flex flex-col basis-1/2">
-        <div className=" py-3 sm:mt-10 md:mt-16 lg:mt-16 font-bold sm:text-md md:text-xl lg:text-xl text-wh-900 w-max">
+        <div className=" py-3 sm:mt-10 md:mt-16 lg:mt-16 font-bold text-sm md:text-xl lg:text-xl text-wh-900 w-max">
           {title}
         </div>
-        <div className="py-2 px-2 sm:text-sm  md:text-base lg:text-base font-semibold text-teal-200 border-4 bg-teal-200 border-amber-300 hover:text-wh-900 ">
+        <div className="py-2 px-2 text-xs  md:text-base lg:text-base font-semibold text-teal-200 border-4 bg-teal-200 border-amber-300 hover:text-wh-900 ">
           {snippet}
         </div>
       </div>

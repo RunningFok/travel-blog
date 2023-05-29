@@ -12,7 +12,7 @@ export default function WhereToStay() {
         <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
       </div>
 
-      <div className="sm:mx-0 lg:mx-96 md:mx-32 relative py-5 inline-block flex-col ">
+      <div className="sm:mx-0 lg:mx-96 mr-20 md:mx-32 relative py-5 inline-block flex-col ">
         <Link href={"/topHotels"} className="hover:opacity-70">
           <Image
             src={"/static/images/cchotel2.jpg"}
@@ -29,7 +29,7 @@ export default function WhereToStay() {
             <h1>Best hotels in Cheung Chau</h1>
           </Link>
         </div>
-        <div id="trivia" className=" sm:mx-0 md:mr-96 lg:mr-96 flex py-1 text-md text-wh-900">
+        <div id="trivia" className=" sm:mx-0 md:mr-96 lg:mr-96 flex py-1 text-base text-wh-900">
           <p>
             Baixa, the downtown area of Cheung Chau is the vibrant heart of the
             city, with nightlife, shopping and loads of people having a good
