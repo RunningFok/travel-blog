@@ -27,7 +27,7 @@ const TopPostCard = ({
           width={600}
           height={600}
           alt=""
-          src={`.next/static/media/${image}`}
+          src={`/static/images/${image}`}
           sizes="(max-width: 480px) 100vw,
                 (max-width: 768px) 75vw,
                 (max-width: 1060px) 50vw,
@@ -63,7 +63,7 @@ const SidePostCard = ({ className, title, image, linkAddress }: PostProps) => {
         <div className="justify-between flex content-start relative w-40 h-40">
           <Image
             alt=""
-            src={`.next/static/media/${image}`}
+            src={`/static/images/${image}`}
             width={150}
             height={150}
             sizes="(max-width: 480px) 100vw,

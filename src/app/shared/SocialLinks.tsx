@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Facebook from ".next/static/media/social_facebook.png";
-import Instagram from ".next/static/media/social_instagram.png";
+import Facebook from "/static/images/social_facebook.png";
+import Instagram from "/static/images/social_instagram.png";
 import Link from "next/link";
 
 type Props = {
