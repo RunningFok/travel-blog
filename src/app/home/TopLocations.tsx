@@ -27,7 +27,7 @@ const TopPostCard = ({
           width={600}
           height={600}
           alt=""
-          src={`/../public/${image}`}
+          src={`.next/static/media/${image}`}
           sizes="(max-width: 480px) 100vw,
                 (max-width: 768px) 75vw,
                 (max-width: 1060px) 50vw,

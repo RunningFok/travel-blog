@@ -9,7 +9,7 @@ export default function TopHotels() {
         <Image
           width={700}
           height={700}
-          src={"/../public/assets/topHotel.jpg"}
+          src={".next/static/media/topHotel.jpg"}
           alt={""}
         />
         <div className="flex  mt-5 font-extrabold font-sans  text-xl md:text-3xl lg:text-3xl text-wh-900 ">
@@ -71,7 +71,7 @@ export default function TopHotels() {
       <Top10Post
         title="1. Warwick Hotel Cheung Chau"
         whatIs="This hotel offers stunning sea views, spacious rooms, and is located just a 10-minute walk from the ferry terminal."
-        image={"/assets/cchotel1.jpg"}
+        image={".next/static/media/cchotel1.jpg"}
         categoryTag="Hotels"
         locationTag="East"
         id="clht87nnu000kulb4of6963e5"
@@ -79,7 +79,7 @@ export default function TopHotels() {
       <Top10Post
         title="2. B&B Cheung Chau"
         whatIs="This cozy bed and breakfast overlooks the beach and offers a comfortable stay with air-conditioning, private bathrooms, and a shared lounge area."
-        image={"/assets/cchotel2.jpg"}
+        image={".next/static/media/cchotel2.jpg"}
         categoryTag="Hotels"
         locationTag="East"
         id="clht87nti000mulb4tl49rs9g"
@@ -87,7 +87,7 @@ export default function TopHotels() {
       <Top10Post
         title="3. Lychee Apartment Hotel"
         whatIs=" Located just steps away from Tung Wan Beach, this hotel offers modern and clean accommodations with excellent amenities including free Wi-Fi and bicycle rentals."
-        image={"/assets/cchotel3.jpeg"}
+        image={".next/static/media/cchotel3.jpeg"}
         categoryTag="Hotels"
         locationTag="North"
         id="clht87nz6000oulb4r2ipikwc"
@@ -95,7 +95,7 @@ export default function TopHotels() {
       <Top10Post
         title="4. Saiyuen"
         whatIs=" This eco-friendly resort features comfortable seaside tents, tree houses, and cabins. Guests here can enjoy a variety of outdoor activities, such as rock climbing, kayaking, and hiking."
-        image={"/assets/cchotel4.png"}
+        image={".next/static/media/cchotel4.png"}
         categoryTag="Hotels"
         locationTag="South"
         id="clht87o4q000qulb4a9juqe25"
@@ -103,7 +103,7 @@ export default function TopHotels() {
       <Top10Post
         title="5.  Cheung Chau Bed & Breakfast "
         whatIs=" This charming bed and breakfast features air-conditioned rooms with ensuite bathrooms and an excellent location close to the ferry terminal and all the island's attractions."
-        image={"/assets/cchotel5.jpg"}
+        image={".next/static/media/cchotel5.jpg"}
         categoryTag="Hotels"
         locationTag="North"
         id="clht87oai000sulb42mj03vld"
