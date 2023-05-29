@@ -31,7 +31,7 @@ export default function Content({ post }: Props) {
       </div>
       <div>
         <Image
-          src={`public/static/images/${post.image}`}
+          src={`/public/static/images/${post.image}`}
           alt=""
           width={800}
           height={800}
