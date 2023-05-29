@@ -1,0 +1,26 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model Location {
+  id               String @id @default(cuid())
+  title            String
+  categoryTag      String
+  locationTag      String
+  photographer     String
+  date             String
+  image            String
+  content          String @db.Text
+  address          String
+  linkAddress      String
+  phoneNumber      String
+  priceDescription String
+  openingHours     String
+}
