@@ -7,13 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "prismaDev": "dotenv -e .env.local prisma migrate dev "
   },
   "dependencies": {
     "@ionic/cli": "^7.1.1",
     "@ionic/core": "^7.0.9",
     "@ionic/react": "^7.0.9",
-    "@prisma/client": "^4.14.1",
+    "@prisma/client": "^4.15.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
     "@types/react": "18.2.6",
@@ -29,7 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.2.0",
-    "prisma": "^4.14.1",
+    "prisma": "^4.15.0",
     "ts-node": "^10.9.1",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
