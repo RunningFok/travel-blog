@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
-    "prismaDev": "dotenv -e .env.local prisma migrate dev "
+    "prismaDev": "dotenv -e .env.local prisma migrate dev",
+    "vercel-build": "prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
     "@ionic/cli": "^7.1.1",

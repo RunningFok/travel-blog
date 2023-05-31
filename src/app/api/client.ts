@@ -3,7 +3,13 @@ import { PrismaClient } from "@prisma/client";
 let prismaInit: PrismaClient;
 
 if (process.env.NODE_ENV === "production") {
-  prismaInit = new PrismaClient();
+  prismaInit = new PrismaClient({
+    datasources: {
+      db: {
+        url: process.env.DATABASE_URL,
+      },
+    },
+  });
 } else {
   if (!(global as any).prisma) {
     (global as any).prisma = new PrismaClient();
