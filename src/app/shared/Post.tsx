@@ -42,7 +42,7 @@ export function Post({ className, title, image, snippet }: PostProps) {
 
 export function SmallPost({ className, title, image, snippet }: PostProps) {
   return (
-    <div className="lg:mx-96 ml-5 flex sm:flex-col md:flex-row lg:flex-row py-5">
+    <div className="lg:mx-96 md:ml-5 lg:ml-5 flex sm:flex-col md:flex-row lg:flex-row py-5">
       <div className="flex flex-col pr-10 md:basis-1/2 lg:basis-1/2">
         <div className=" py-3 sm:mt-10 md:mt-16 lg:mt-16 font-bold text-sm md:text-xl lg:text-xl text-wh-900 w-max">
           {title}
