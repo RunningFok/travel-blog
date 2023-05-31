@@ -7,7 +7,7 @@ export default function DidYouKnow() {
       <div className="lg:ml-96 lg:mr-96 relative flex sm:py-0 md:py-5 lg:py-5 items-center">
         <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
         <span className="flex-shrink mx-4 font-extrabold font-sans text-xl md:text-3xl lg:text-3xl text-wh-900">
-          Did You Know...
+          Did You Know
         </span>
         <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
       </div>
