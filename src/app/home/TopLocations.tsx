@@ -89,7 +89,7 @@ const SidePostCard = ({ className, title, image, linkAddress }: PostProps) => {
 export default function TopLocations() {
   return (
     <section className="pt-3 pb-0 md:pb-28 lg:pb-28">
-      <div className="sm:grid sm:gap-0 md:grid-cols-5 md:grid-rows-3 lg:grid-cols-5 lg:grid-rows-3 mx-0 my-3 w-11/12">
+      <div className="sm:grid sm:gap-0 md:grid-cols-5 md:grid-rows-3 lg:grid-cols-5 lg:grid-rows-3 h-[200px] md:h-[400px] mx-0 my-3 w-11/12">
         <TopPostCard
           className="col-span-3 row-span-3"
           title="The 8 best things to do in Cheung Chau"
