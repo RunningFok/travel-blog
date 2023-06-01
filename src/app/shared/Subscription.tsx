@@ -21,7 +21,7 @@ export default function Subsecription(props: Props) {
           events, offers and partner promotions.
         </p>
       </div>
-      <div className="flex pt-5 md:pl-0 md:pr-10 lg:pl-0 lg:pr-10 ">
+      <div className="flex pl-28 pt-5 md:pl-0 md:pr-10 lg:pl-0 lg:pr-10 ">
         <button className="bg-red-400 rounded-md text-neutral-100 font-semibold w-48 py-2 min-w-[100px]">
           Subscribe now
         </button>
