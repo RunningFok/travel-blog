@@ -19,7 +19,7 @@ const TopPostCard = ({
   return (
     <div
       id="top"
-      className={`${className} sm:mt-0 lg:ml-96 flex flex-col m-5 my-5 h-96`}
+      className={`${className}  lg:ml-96 flex flex-col h-96`}
     >
       <Link href={`/topLocations`} className="hover:opacity-70">
         <Image
