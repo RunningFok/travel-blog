@@ -19,7 +19,7 @@ const TopPostCard = ({
   return (
     <div
       id="top"
-      className={`${className}  pb-5 pl-5 lg:ml-96 flex flex-col h-96`}
+      className={`${className} pl-5 lg:ml-96 flex flex-col h-96`}
     >
       <Link href={`/topLocations`} className="hover:opacity-70">
         <Image
@@ -88,7 +88,7 @@ const SidePostCard = ({ className, title, image, linkAddress }: PostProps) => {
 
 export default function TopLocations() {
   return (
-    <section className="pt-3 pb-0 md:pb-28 lg:pb-28">
+    <section className="pt-3 pb-5 md:pb-28 lg:pb-28">
       <div className="sm:grid sm:gap-0 md:grid-cols-5 md:grid-rows-3 lg:grid-cols-5 lg:grid-rows-3 h-[200px] md:h-[400px] mx-0 my-3 w-11/12">
         <TopPostCard
           className="col-span-3 row-span-3"
