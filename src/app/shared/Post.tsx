@@ -30,7 +30,7 @@ export function Post({ className, title, image, snippet }: PostProps) {
       <div className="mx-5 mr-24 font-bold sm:text-lg md:text-xl lg:text-xl text-wh-900 hover:underline hover:decoration-4 hover:decoration-teal-400 ">
         {title}
       </div>
-      <div className="mx-5 mr-20 flex py-1 text-sm text-wh-900">{snippet}</div>
+      <div className="hidden sm:block mx-5 mr-20 py-1 text-sm text-wh-900">{snippet}</div>
       <div className="mx-5 my-3 mr-28">
         <button className="bg-teal-200 border-2 text-sm border-gray-800 text-wh-900 font-bold w-32 h-10 hover:bg-amber-200">
           Buy tickets

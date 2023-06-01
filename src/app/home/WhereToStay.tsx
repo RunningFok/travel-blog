@@ -29,7 +29,7 @@ export default function WhereToStay() {
             <h1>Best hotels in Cheung Chau</h1>
           </Link>
         </div>
-        <div id="trivia" className=" sm:mx-0 md:mr-96 lg:mr-96 flex py-1 text-base text-wh-900">
+        <div id="trivia" className="hidden sm:block sm:mx-0 md:mr-96 lg:mr-96 py-1 text-base text-wh-900">
           <p>
             Baixa, the downtown area of Cheung Chau is the vibrant heart of the
             city, with nightlife, shopping and loads of people having a good

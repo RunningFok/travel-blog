@@ -43,7 +43,7 @@ const TopPostCard = ({
           {title}
         </Link>
       </div>
-      <h4 className="flex py-1 text-sm md:text-base lg:text-base text-wh-900">
+      <h4 className="hidden sm:block py-1 text-sm md:text-base lg:text-base text-wh-900">
         {snippet}
       </h4>
     </div>
