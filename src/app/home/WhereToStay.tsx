@@ -12,7 +12,7 @@ export default function WhereToStay() {
         <div className="flex-grow border-t-1 md:border-t-4 border-b-4 border-wh-900"></div>
       </div>
 
-      <div className="pl-10 lg:mx-96 mr-20 md:mx-32 relative py-5 inline-block flex-col ">
+      <div className="pl-5 lg:mx-96 md:mx-32 relative py-5 inline-block flex-col ">
         <Link href={"/topHotels"} className="hover:opacity-70">
           <Image
             src={"/static/images/cchotel2.jpg"}
