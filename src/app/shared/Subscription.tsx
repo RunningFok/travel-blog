@@ -2,7 +2,7 @@ type Props = {};
 
 export default function Subsecription(props: Props) {
   return (
-    <div className="bg-[#F4F4F4] border flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between items-start px-20 py-5">
+    <div className="bg-[#F4F4F4] border flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between items-start px-10 md:px-20 py-5">
       <div className="md:px-5 flex flex-col">
         <h5 className="font-bold text-lg text-wh-900 ">Get us in your inbox</h5>
         <h6 className="text-wh-900 text-md w-6/8">
