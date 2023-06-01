@@ -27,7 +27,7 @@ export function Post({ className, title, image, snippet }: PostProps) {
           className="max-h-56"
         />
       </div>
-      <div className="mx-5 mr-24 font-bold sm:text-lg md:text-xl lg:text-xl text-wh-900 hover:underline hover:decoration-4 hover:decoration-teal-400 ">
+      <div className="mx-5 font-bold sm:text-lg md:text-xl lg:text-xl text-wh-900 hover:underline hover:decoration-4 hover:decoration-teal-400 ">
         {title}
       </div>
       <div className="hidden sm:block mx-5 mr-20 py-1 text-sm text-wh-900">{snippet}</div>
