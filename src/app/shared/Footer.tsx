@@ -45,7 +45,7 @@ export default function Footer() {
             <SocialLinks />
           </div>
         </div>
-        <div className="px-12 ">
+        <div className="px-3 md:px-12 ">
           <h6 className="text-xs mt-8">SITE MAP</h6>
           <p className="text-xs my-4 w-3/6">
             © 2023 chewout Web Dev Limited and affiliated companies owned by
