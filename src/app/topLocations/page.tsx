@@ -72,11 +72,11 @@ export default function TopLocations() {
           </h5>
         </div>
         <div className="lg:ml-0 lg:mr-96 relative flex py-5 items-center">
-          <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
+          <div className="flex-grow border-t-1 md:border-t-4 border-b-4 border-wh-900"></div>
           <span className="flex-shrink mx-4 font-extrabold text-lg md:text-3xl lg:text-3xl text-wh-900">
             Top Things To Do
           </span>
-          <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
+          <div className="flex-grow border-t-1 md:border-t-4 border-b-4 border-wh-900"></div>
         </div>
       </div>
       <Top10Post

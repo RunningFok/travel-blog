@@ -17,7 +17,7 @@ export default function Navbar(props: Props) {
           </Link>
         </div>
         <div id="dropdown-wrapper" className="block md:hidden lg:hidden">
-          <button className="pl-5 items-start peer hover:font-bold hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-teal-200">
+          <button className="pl-7 items-start peer hover:font-bold hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-teal-200">
             <div className="">
               <IonIcon icon={menu} size="large" />
             </div>
