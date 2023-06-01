@@ -1,7 +1,7 @@
 import { Post } from "../shared/Post";
 export default function Booking() {
   return (
-    <section className="pb-10">
+    <section className="md:pb-10">
       <div className="lg:ml-96 lg:mr-96 relative flex md:py-5 lg:py-5 items-center">
         <div className="flex-grow border-t-1 md:border-t-4 border-b-4 border-wh-900"></div>
         <span className="flex-shrink mx-4 font-extrabold font-sans text-xl md:text-3xl lg:text-3xl text-wh-900">
