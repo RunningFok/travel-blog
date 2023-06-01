@@ -35,7 +35,7 @@ const TopPostCard = ({
         />
       </Link>
 
-      <div className="text-wh-900 flex flex-initial font-extrabold font-sans text-xl md:text-3xl lg:text-3xl mt-2">
+      <div className="text-wh-900 flex flex-initial font-extrabold font-sans text-lg md:text-3xl lg:text-3xl mt-2">
         <Link
           href={linkAddress}
           className=" hover:underline hover:decoration-4 hover:decoration-teal-400"
