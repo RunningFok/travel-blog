@@ -19,7 +19,7 @@ const TopPostCard = ({
   return (
     <div
       id="top"
-      className={`${className} sm:mt-0 sm:h-auto lg:ml-96 flex flex-col m-5 my-5`}
+      className={`${className} sm:mt-0 sm:h-auto lg:ml-96 flex flex-col m-5 my-5 h-96`}
     >
       <Link href={`/topLocations`} className="hover:opacity-70">
         <Image
@@ -31,7 +31,7 @@ const TopPostCard = ({
                 (max-width: 768px) 75vw,
                 (max-width: 1060px) 50vw,
                 33vw"
-          // style={{ objectFit: "contain" }}
+          style={{ objectFit: "contain" }}
         />
       </Link>
 

@@ -5,11 +5,11 @@ export default function WhereToStay() {
   return (
     <section className="pb-10">
       <div className="lg:ml-96 lg:mr-96 relative flex py-5 items-center">
-        <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
+        <div className="flex-grow border-t-4 md:border-t-4 border-b-4 border-wh-900"></div>
         <span className="flex-shrink mx-4 font-extrabold font-sans text-xl md:text-3xl lg:text-3x; text-wh-900">
           Where To Stay
         </span>
-        <div className="flex-grow border-t-4 border-b-4 border-wh-900"></div>
+        <div className="flex-grow border-t-4 md:border-t-4 border-b-4 border-wh-900"></div>
       </div>
 
       <div className="sm:mx-0 lg:mx-96 mr-20 md:mx-32 relative py-5 inline-block flex-col ">
