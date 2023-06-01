@@ -19,7 +19,7 @@ const TopPostCard = ({
   return (
     <div
       id="top"
-      className={`${className}  pl-5 lg:ml-96 flex flex-col h-96`}
+      className={`${className}  pb-5 pl-5 lg:ml-96 flex flex-col h-96`}
     >
       <Link href={`/topLocations`} className="hover:opacity-70">
         <Image
@@ -53,7 +53,7 @@ const TopPostCard = ({
 const SidePostCard = ({ className, title, image, linkAddress }: PostProps) => {
   return (
     <div
-      className={`${className} sm:mt-0 sm:h-auto flex flex-row relative items-start pb-5`}
+      className={`${className} sm:mt-0 sm:h-auto flex flex-row relative items-start pb-0`}
     >
       <Link
         className={`${className} sm:mt-0 sm:h-auto flex hover:opacity-70`}
