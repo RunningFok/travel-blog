@@ -9,7 +9,7 @@ type Props = {};
 
 export default function Navbar(props: Props) {
   return (
-    <header className="mb-0 md:sticky lg:sticky top-0 z-30">
+    <header className="mb-0 sticky top-0 z-30">
       <nav className=" flex flex-row sm:px-10 pt-5 pr-44 justify-between items-center w-full bg-neutral-800 text-wh-10">
         <div className="hidden sm:block">
           <Link href={"/"}>

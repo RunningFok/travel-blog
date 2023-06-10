@@ -7,8 +7,8 @@ import Subsecription from "./shared/Subscription";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata = {
-  title: "chewout ",
-  description: "Slow yourself down inCheung Chau",
+  title: "chewout - Cheung Chau Travel Guide ",
+  description: "Slow yourself down in Cheung Chau",
 };
 
 export default function RootLayout({
